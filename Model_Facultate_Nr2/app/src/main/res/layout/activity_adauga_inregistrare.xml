@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Adauga_Inregistrare">
+
+    <EditText
+        android:id="@+id/editTextNume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/introduceti_numele_facultatii" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="254dp"
+        android:layout_height="97dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioButtonAreDoctorat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/are_doctorat"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonNUAreDoctorat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nu_are_doctorat" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBoxAreMaster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/are_master" />
+
+    <EditText
+        android:id="@+id/editTextNrSpecializari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/introduceti_nr_de_specializari" />
+
+
+    <EditText
+        android:id="@+id/editTextTaxa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint = "Introduceti taxa" />
+
+    <Spinner
+        android:id="@+id/spinnerSpecializari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonSalveaza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salveaza" />
+</LinearLayout>

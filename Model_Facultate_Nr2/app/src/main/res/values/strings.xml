@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Model_Facultate_Nr2</string>
+    <string name="introduceti_numele_facultatii">Introduceti numele facultatii</string>
+    <string name="are_doctorat">Are doctorat</string>
+    <string name="nu_are_doctorat">Nu are doctorat</string>
+    <string name="are_master">Are Master</string>
+    <string name="introduceti_nr_de_specializari">Introduceti nr de specializari</string>
+</resources>
